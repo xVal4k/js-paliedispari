@@ -48,7 +48,7 @@ document.writeln("Your number: " + userNumber);
 let userEven;
 
 if (userOddOrEven.toLowerCase = "even") {
-    userEven = even;
+    userEven = true;
 } else if (userOddOrEven.toLowerCase = "odd") {
     userEven = false;
 }
