@@ -47,10 +47,12 @@ document.writeln("Your number: " + userNumber);
 
 let userEven;
 
-if (userOddOrEven.toLowerCase = "even") {
+if (userOddOrEven == "even") {
     userEven = true;
-} else if (userOddOrEven.toLowerCase = "odd") {
+} else if (userOddOrEven == "odd") {
     userEven = false;
+} else {
+    document.writeln("Please try again and choose between ODD or EVEN");
 }
 
 document.writeln(userEven);
