@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaliEDispari</title>
+
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Style link -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    
+    <div class="container py-4">
+
+        <div class="row row-cols-1">
+
+            <div class="col text-center">
+                <h1>E' Palindroma?</h1>
+                <h3>Scrivi una parola e verifica se è palindroma o meno cliccando sul bottone "Verifica"</h3>
+            </div>
+
+        </div>
+
+        <div class="row row-cols-1">
+
+            <div class="col form-floating">
+                <input type="text" class="form-control input-word" id="floatingPassword" placeholder="Scrivi una parola">
+                <label class="mx-2" for="floatingPassword">Scrivi una parola</label>
+            </div>
+
+            <div class="col text-center my-3">
+                <button type="button" id="btn-check" class="btn btn-dark rounded-pill">Verifica</button>
+            </div>
+
+            <div class="col text-center result-message">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container py-4">
+        
+    </div>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
